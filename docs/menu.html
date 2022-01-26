@@ -35,7 +35,7 @@
         <div id="search-btn" class="fas fa-search icons" style="visibility: hidden;"></div>
 
         <nav class="navbar">
-            <a href="#">Inicio</a>
+            <a href="index.html">Inicio</a>
             <a href="menu.html">Menu</a>
             <a href="#">Nosotros </a>
             <span class="space"> </span>
@@ -278,16 +278,26 @@
                 <td class="texto_menu">3.000</td>
               </tr>
 
+              
+
               <tr>
                 <td class="item texto_menu texto_menu">14</td>
-                <td><img src="images/edit/PERRO CALIENTE.png" class="img_menu"></td>
-                <td class="texto_menu">PERRO CALIENTE</td>
-                <td class="texto_menu" ><a href="" data-bs-toggle="modal" data-bs-target="#perrocaliente">Ver</a></td>
-                <td class="texto_menu">1.750</td>
+                <td><img src="images/edit/PAPAS_LOCAS.png" class="img_menu"></td>
+                <td class="texto_menu">PAPAS LOCAS</td>
+                <td class="texto_menu" ><a href="" data-bs-toggle="modal" data-bs-target="#papas">Ver</a></td>
+                <td class="texto_menu">0.000</td>
               </tr>
 
               <tr>
                 <td class="item texto_menu texto_menu">15</td>
+                <td><img src="images/edit/SALCHIPAPAS.png" class="img_menu"></td>
+                <td class="texto_menu">SALCHI PAPAS</td>
+                <td class="texto_menu" ><a href="" data-bs-toggle="modal" data-bs-target="#salchicha">Ver</a></td>
+                <td class="texto_menu">0.0000</td>
+              </tr>
+
+              <tr>
+                <td class="item texto_menu texto_menu">16</td>
                 <td><img src="images/cards/BEBIDAS350ML.jpg" class="img_menu"></td>
                 <td class="texto_menu">BEBIDAS 350Ml</td>
                 <td class="texto_menu" ><a href="" data-bs-toggle="modal" data-bs-target="#bebidas350">Ver</a></td>
@@ -295,7 +305,7 @@
               </tr>
 
               <tr>
-                <td class="item texto_menu texto_menu">16</td>
+                <td class="item texto_menu texto_menu">17</td>
                 <td><img src="images/cards/BEBIDAS1.5lts.jpg" class="img_menu"></td>
                 <td class="texto_menu">BEBIDAS 1.5Lt</td>
                 <td class="texto_menu" ><a href="" data-bs-toggle="modal" data-bs-target="#bebidas15">Ver</a></td>
@@ -823,20 +833,56 @@
   </div>
 
   <div class="container 14">
-    <div class="modal" id="perrocaliente">
+    <div class="modal" id="papas">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           
           <!-- Modal Header -->
-          <img  class="card-img-top" src="images/cards/PERROSQUI.jpg" alt="">
+
+          <img  class="card-img-top" src="images/cards/PAPAS_LOCAS.jpg" alt="">
+  
+        <!-- Cuerpo del Modal -->
+        <div class="content_modal container">
+              <div class="modal-body">
+                  <h3 class="titulo_producto">PAPAS LOCAS</h3>
+                  <hr>
+                  <h3 class="text_ingrediente">Ingredientes  :</h3>
+                  <h4>Ingredientes  :</h4>
+                  <ul class="ingredientes">
+             
+                  <li class="item_ingrediente">Masa de Trigo</li>
+                      <li class="item_ingrediente">Queso</li>
+                        
+                </ul>
+              
+              </div>
+        </div>
+  
+        <!-- Modal footer -->
+                    <div class="modal-footer">
+                 <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+             </div>
+  
+          </div>
+        </div> 
+    </div>
+  </div>
+
+  <div class="container 15">
+    <div class="modal" id="salchicha">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          
+          <!-- Modal Header -->
+          <img  class="card-img-top" src="images/cards/SALCHIPAPAS.jpg" alt="">
           
         <!-- Cuerpo del Modal -->
         <div class="content_modal container">
               <div class="modal-body">
-                  <h3 class="titulo_producto">PERRO CALIENTE</h3>
+                  <h3 class="titulo_producto">SALCHI PAPAS</h3>
                   <hr>
                   <h3 class="text_ingrediente">Ingredientes  :</h3>
-                  <h4>Producto Venezolano</h4>
+                 
                   <ul class="ingredientes">
              
                   <li class="item_ingrediente">Vianesa</li>
@@ -860,7 +906,7 @@
     </div>
   </div>
 
-  <div class="container 15">
+  <div class="container 16">
     <div class="modal" id="bebidas350">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
@@ -951,7 +997,7 @@
             <a href="#blogs" class="btn">Promosiones</a>
         </div> -->
 
-        <p class="credit"> Diseño - Adaptación | <span> MAYTech Soluciones </span> | Desarrollo - Backend </p>
+        <p class="credit"> Diseño - Adaptación | <a style="text-decoration: none;" href="https://maytechologies.github.io/web_maytech/index.html"><span>MAYTech Soluciones</span> </a>| Desarrollo - Backend </p>
 
       </section>
 
