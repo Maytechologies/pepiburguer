@@ -127,14 +127,14 @@ section {
 
 .header .logo {
   position: absolute;
-  top: 0.5rem;
+  top: 2.5rem;
   left: 48.5%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
 
 .header .logo img {
-  width: 8rem;
+  width: 14rem;
 }
 
 
@@ -668,6 +668,18 @@ section {
   .header .navbar .space {
     display: none;
   }
+
+  .header .logo {
+    position: absolute;
+    top: 1rem;
+    left: 48.5%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  
+  .header .logo img {
+    width: 14rem;
+  } 
 }
 
 @media (max-width: 768px) {
@@ -679,18 +691,49 @@ section {
   display: none;
   
   }
+
+  .header .logo {
+    position: absolute;
+    top: 1.5rem;
+    left: 48.5%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  
+  .header .logo img {
+    width: 14rem;
+  } 
 }
 
 .colunm_menu{
   border-bottom: none;
 }
   
-
+/* ******************************************************************/
+/*********----ESTILO PARA EL LOGO HEADER----************************/
+/* *****************************************************************/
 
 @media (max-width: 450px) {
   html {
     font-size: 50%;
   }
+
+  .header .logo {
+    position: absolute;
+    top: 1.5rem;
+    left: 48.5%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  
+  .header .logo img {
+    width: 14rem;
+  } 
+
+  .mapa{
+    width: 500px;
+  }
+
 }
 
 /* **********************************************/
